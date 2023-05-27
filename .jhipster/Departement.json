@@ -1,0 +1,27 @@
+{
+  "changelogDate": "20230527204003",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "chief",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Departement",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "structure",
+      "relationshipName": "structure",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "service": "no"
+}
