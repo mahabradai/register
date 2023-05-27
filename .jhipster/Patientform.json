@@ -1,0 +1,25 @@
+{
+  "changelogDate": "20230527171111",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "pathologie",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "typeobservation",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "casfamiliaux",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Patientform",
+  "pagination": "pagination",
+  "readOnly": true,
+  "relationships": [],
+  "service": "serviceClass"
+}

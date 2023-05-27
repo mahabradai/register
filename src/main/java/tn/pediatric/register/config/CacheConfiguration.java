@@ -49,6 +49,7 @@ public class CacheConfiguration {
             createCache(cm, tn.pediatric.register.domain.Authority.class.getName());
             createCache(cm, tn.pediatric.register.domain.User.class.getName() + ".authorities");
             createCache(cm, tn.pediatric.register.domain.Structure.class.getName());
+            createCache(cm, tn.pediatric.register.domain.Patientform.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
